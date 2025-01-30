@@ -1,6 +1,5 @@
 import { FiGlobe } from "react-icons/fi";
-
-export const Navbar = () => {
+function Navbar(){
   return (
     <nav className="w-full bg-gray-100 py-3">
       <div className="max-w-7xl mx-auto flex justify-end items-center sm:space-x-3  lg:space-x-6 px-6 text-gray-500 text-sm">
