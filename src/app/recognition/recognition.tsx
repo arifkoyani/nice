@@ -8,7 +8,7 @@ export default function Recognition() {
       <BackgroundImage
         src="https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/images/bg-6.png"
         radius="xs"
-        className="pb-24 pt-12 flex flex-col items-center"
+        className="py-8 flex flex-col items-center"
       >
         <Center p="md" className="flex flex-col h-screen">
           <span className="text-5xl text-white mb-10">
@@ -49,7 +49,7 @@ export default function Recognition() {
           </div>
         </Center>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center pt-12">
           <button className="group h-8 text-black mt-6 flex items-center gap-2 px-8 py-5 duration-500 bg-cyan-400 border-2 border-cyan-400 font-semibold rounded-full shadow-md hover:text-white hover:bg-[#47484c] transition-colors">
             <span className="font-semibold">Transform CX with AI</span>
             <FiArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
